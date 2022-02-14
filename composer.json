@@ -1,0 +1,24 @@
+{
+    "name": "parabol/parabol-doctrine-query-extensions-bundle",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "description": "Query Extension for Symfony Doctrine Bundle",
+    "keywords": ["doctrine", "symfony", "extension"],
+    "homepage": "https://github.com/parabolalab/ParabolDoctrineQueryExtensionsBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Kalota",
+            "email": "marcin@parabolalab.com",
+            "homepage": "http://www.parabolalab.com"
+        }
+    ],
+    "require" : {
+        "php": ">=7.4.0",
+        "doctrine/doctrine-bundle": "^2.3.0"
+    },
+    "autoload": {
+        "psr-4": { "Parabol\\DoctrineQueryExtensionsBundle\\": "" }
+    }
+
+}

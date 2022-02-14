@@ -1,0 +1,7 @@
+services:
+    doctrine.orm.container_repository_factory:
+        class: Parabol\DoctrineQueryExtensionsBundle\Doctrine\Repository\ContainerRepositoryFactory
+        public: false
+        arguments: [ '@Symfony\Component\DependencyInjection\ServiceLocator', !tagged doctrine.query_builder_extension ]
+
+
