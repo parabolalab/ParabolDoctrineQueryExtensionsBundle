@@ -5,3 +5,6 @@ services:
         arguments: [ '@Symfony\Component\DependencyInjection\ServiceLocator', !tagged doctrine.query_builder_extension ]
 
 
+    Parabol\DoctrineQueryExtensionsBundle\Form\Extension\EntityTypeExtension:
+        tags: 
+            - { name: form.type_extension }    
